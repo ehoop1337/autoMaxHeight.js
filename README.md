@@ -44,4 +44,4 @@ The function finds the element with the longest height and brings all other elem
 ```
 
 ## Example jsFiddle
-[https://jsfiddle.net/ehoop1337/g0rb1cdm/](https://jsfiddle.net/ehoop1337/g0rb1cdm/)
+[https://jsfiddle.net/ehoop1337/krq5wLpe/](https://jsfiddle.net/ehoop1337/krq5wLpe/)
