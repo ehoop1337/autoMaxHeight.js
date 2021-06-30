@@ -8,6 +8,17 @@
         *, :before, :after {
             box-sizing: border-box;
         }
+        body {
+		  display: flex;
+		  flex-direction: column;
+		  max-width: 500px;
+		  margin: 0 auto;
+		  font-size: 16px;
+		  padding-top: 3rem
+		}
+		hr {
+		  width: 100%
+		}
         .items {
             display: flex;
             flex-direction: row;
@@ -18,10 +29,29 @@
             padding: 5px;
             margin: 5px;
             border: 5px solid #ccc;
+            width: calc(100% - 10px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
+
+	<h1>
+        autoMaxHeight.js
+    </h1>
+    <p>
+        <a href="https://github.com/ehoop1337/autoMaxHeight.js" target="_blank">https://github.com/ehoop1337/autoMaxHeight.js</a> by Ruslan Sayfutdinov
+    </p>
+    <hr />
+    <h2>
+        Example: The function finds the element with the longest height and brings all other elements to this height parameter
+    </h2>
+    <p>
+        autoMaxHeight('.items > .item')
+    </p>
 
 	<div class="items">
         <div class="item">
@@ -42,7 +72,31 @@
         <div class="item">
             <p>10</p>
             <p>11</p>
-            <p>11</p>
+            <p>12</p>
+        </div>
+    </div>
+
+    <div class="items">
+        <div class="item">
+            <p>12</p>
+        </div>
+        <div class="item">
+            <p>13</p>
+            <p>14</p>
+            <p>15</p>
+        </div>
+        <div class="item">
+            <p>16</p>
+            <p>17</p>
+            <p>18</p>
+            <p>19</p>
+        </div>
+        <div class="item">
+        	<p>20</p>
+            <p>21</p>
+            <p>22</p>
+            <p>23</p>
+            <p>24</p>
         </div>
     </div>
 	
